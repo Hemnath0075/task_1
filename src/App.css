@@ -1,3 +1,10 @@
 *{
   background-color: #0A0323 !important;
 }
+
+.box-shadow-div{
+  box-shadow: -3px 3px 3px 0px rgba(129, 129, 129, 0.4) inset,
+    -1px 1px 1px 0px rgba(255, 255, 255, 0.4) inset,
+    3px -3px 3px 0px rgba(255, 255, 255, 0.4) inset,
+    1px -1px 1px 0px rgba(129, 129, 129, 0.4) inset;
+}
