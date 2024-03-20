@@ -103,6 +103,27 @@ function Description() {
             </div>
           </div>
         </div>
+        <div className="flex flex-col justify-center items-start w-[80%] gap-12">
+          <div className="basis-[80%] flex flex-row gap-4 text-2xl">
+            <img src={"/Comparison/star.svg"} alt={"star"} />
+            <span>Destination</span>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-8 w-[90%]">
+            <div className="flex flex-row justify-center items-start gap-4 w-full">
+              <img src="/Comparison/tick_compare.svg" alt="" />
+              <p className="text-lg w-full">
+              Where can you move your data? <br/> 
+Well Supermetrics allows you to move your data to spreadsheets, data warehouses, and BI tools. Vision Vault, on the other hand, provides you with the same offerings and can help you store your data in a spreadsheet or your choice of database, but we prefer not to connect directly to a BI tool because -
+                <ul className="mt-8 list-decimal ml-4">
+                  <li>Limited data transformation</li>
+                  <li>Inadequate backup and recovery</li>
+                  <li>Complex query limitation.</li>
+                </ul>
+              </p>
+            </div>
+            
+          </div>
+        </div>
       </div>
   )
 }
