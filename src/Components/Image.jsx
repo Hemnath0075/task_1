@@ -1,6 +1,6 @@
 import React from "react";
 
-function Image() {
+function Picture() {
   const dashboards = [
     {
       dashboard_name: "Balance Sheet Dashboard",
@@ -9,41 +9,83 @@ function Image() {
       image: "/Dashboards/Balance-Sheet 1.png",
     },
     {
-      dashboard_name: "Balance Sheet Dashboard",
+      dashboard_name: "MX Locker",
       description:
         "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
-      image: "/Dashboards/Balance-Sheet 1.png",
+      image: "/Dashboards/MX-locker 1.png",
     },
     {
-      dashboard_name: "Balance Sheet Dashboard",
+      dashboard_name: "CMI Dashboard",
       description:
         "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
-      image: "/Dashboards/Balance-Sheet 1.png",
+      image: "/Dashboards/CMI-Dashboard 2.png",
     },
     {
-      dashboard_name: "Balance Sheet Dashboard",
+      dashboard_name: "DFTB",
       description:
         "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
-      image: "/Dashboards/Balance-Sheet 1.png",
+      image: "/Dashboards/DFTB 1.png",
     },
     {
-      dashboard_name: "Balance Sheet Dashboard",
+      dashboard_name: "Placester",
       description:
         "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
-      image: "/Dashboards/Balance-Sheet 1.png",
+      image: "/Dashboards/Placester 1.png",
     },
     {
-      dashboard_name: "Balance Sheet Dashboard",
+      dashboard_name: "Inventory Sourcing Dashboard",
       description:
         "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
-      image: "/Dashboards/Balance-Sheet 1.png",
+      image: "/Dashboards/Sourcing 1.png",
     },
     {
-      dashboard_name: "Balance Sheet Dashboard",
+      dashboard_name: "Proximo",
       description:
         "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
-      image: "/Dashboards/Balance-Sheet 1.png",
+      image: "/Dashboards/Proximo 1.png",
     },
+    {
+      dashboard_name: "HR Dashboard 2",
+      description:
+        "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
+      image: "/Dashboards/HR-02 1.png",
+    },
+    {
+      dashboard_name: "Manufacturing Management Information",
+      description:
+        "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
+      image: "/Dashboards/HUL 1.png",
+    },
+    {
+      dashboard_name: "E Commerce Sales Overview",
+      description:
+        "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
+      image: "/Dashboards/Ecommerce 1.png",
+    },
+    {
+      dashboard_name: "Loyalty",
+      description:
+        "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
+      image: "/Dashboards/Loyalty 1.png",
+    },
+    {
+      dashboard_name: "CMI",
+      description:
+        "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
+      image: "/Dashboards/CMI 1.png",
+    },
+    {
+      dashboard_name: "Value Realization Tracker",
+      description:
+        "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
+      image: "/Dashboards/J&J 1.png",
+    },
+    {
+      dashboard_name: "HR Dashboard",
+      description:
+        "Optimize financial visibility with our Balance Sheet Dashboard, providing a comprehensive overview of assets, liabilities, and equity.",
+      image: "/Dashboards/HR 1.png",
+    } 
   ];
   return (
     <div className="w-[70vw] flex flex-row justify-around items-center">
@@ -77,4 +119,4 @@ function Image() {
   );
 }
 
-export default Image;
+export default Picture;
